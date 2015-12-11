@@ -7,7 +7,17 @@ blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
 /* start editing from here */
+.clearfix:after{
+  content: ""; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+  }
 
+.clearfix {
+  zoom: 1; 
+  }
 a{text-decoration:none;}
 
 .clear{clear:both;}
@@ -163,9 +173,10 @@ color: #333; margin-top:8%; }
 }
 
 /* zuopin */
+
 .zuopin {
 	padding: 2% 0;
-     background:#F7F7F7; 
+     background:#ebebe8; 
 	background-size: 100% 100%; 
 }
 #zuopin .wrap{padding-bottom: 2%; margin: 0 auto;}
@@ -184,22 +195,24 @@ color: #333; margin-top:8%; }
 	padding:2% 0 2% 2%;
 }
 .masonry{position: relative; margin:0 auto; width: 85%; margin-top: 20px;}
-.post{float:left; width: 300px; margin: 10px;}
+.post{float:left; width: 300px; margin: 5px;}
 .boxhover{box-shadow: 0 0 15px #666;}
-.zuopin p{text-align: center; color:#777777;}
-
+.zuopinslogan{text-align: center; color:#777777;}
+.ftwenzi{background-color: #fff; padding:10px;line-height: 1.5em;}
+.piclist{border: 1px solid #ddd;}
 
 /*---start-bottom-footer---*/
-.bottom-footer{clear:both;}
+.bottom-footer{clear:both; background-color: #333333;}
 .bottom-footer wrap{
 	margin:0 auto; width:70%; text-align: center;
 }
 .bottom-footer p{
 	font-size: 0.875em;
-	color: #777;
-	margin-top: 1.5em;
+	color: #fff;
+	padding:1.5em;
 	text-align:center;
 }
+.bottom-footer a{color:#fff;}
 /*---End-footer----*/
 
 
