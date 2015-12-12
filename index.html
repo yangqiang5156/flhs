@@ -40,13 +40,10 @@
 					easingType: 'linear' 
 		 		};
 			
-		
-					
 				$(".fancybox").fancybox();//fancybox
-										
-				
+			
 		});
-		</script>
+	</script>
 		 <!-- //scroll -->
 
 </head>
@@ -74,16 +71,7 @@
 			<div class="clear"></div>
 
 			</div>
-          <!--  <h1>风林火山</h1>
-            <div class="introduce wrap">
-             <img  src="images/headerpic.png" alt="" />
-            <span>其疾如风,其徐如林,侵掠如火,不动如山</span>
-                 <p>虽高冷傲娇，但或许古灵精怪。<br />
-                   虽目测温婉，却可能蓄势待发。<br />
-                     虽不善言谈，但兴许脑洞大开。<br />
-                     虽低调内敛，但可能逻辑缜密。</p>
-                      
-            </div>-->
+     
 	</div>
 		
  </div>
@@ -116,10 +104,7 @@
   	<div class="wrap">
 		  		<h3>个人作品</h3>
 		  		<p class="zuopinslogan">“想到”与“得到”中间还得有个“做到”！</p>
-               
-                  
-             
-
+         
 	<div class="masonry clearfix" id="content">
 
 		<div class="post piclist masonry-brick"><a class="fancybox" href="images/weixin1b.jpg" data-fancybox-group="gallery" title="微信平台微网站"><img src="images/weixin22s.jpg" alt="" /></a><p class="ftwenzi">微信平台微网站<br/>北京第嘉文化传媒<br/>风林火山</p></div>
@@ -155,15 +140,13 @@
 						
 		 <p>Design By<a href="http://www.xqflhs.cn/" target="_blank" title="风林火山">&nbsp;&nbsp;风林火山&nbsp;|&nbsp;</a> <a href="http://www.miitbeian.gov.cn/" target="_blank">辽ICP备15011148号-1</a><br/><br/>为保证浏览效果，建议使用谷歌或火狐浏览器浏览
 		</p>
-
-						
-							  
-						<div class="clear"> </div>
+			  
+	<div class="clear"> </div>
 	</div>
 </div>
 				<!--//End-bottom-footer-->
  <!-- scroll_top_btn -->
-		// <!-- <script type="text/javascript" src="js/move-top.js"></script> -->
+		<!-- <script type="text/javascript" src="js/move-top.js"></script> -->
 		<script type="text/javascript" src="js/easing.js"></script>
 		<script type="text/javascript">
 		jQuery(document).ready(function($) {
@@ -171,34 +154,31 @@
 				event.preventDefault();
 				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
 			});
-		});
-		
-		
-		
-		//顶部导航效果
-		$(".menu li").click(function(){
-			$(".menu li").removeClass("active");
-			$(this).addClass("active");
-		});
+			
+			//顶部导航效果
+			$(".menu li").click(function(){
+				$(".menu li").removeClass("active");
+				$(this).addClass("active");
+			});
 
-		//瀑布流效果
+			//瀑布流效果
 
-		$(function(){  
-		   $('#content').masonry({
-		    itemSelector : '.post',
-		    columnWidth : 320
-		  });  
-		});
-		//盒子外阴影效果
-		$(".masonry>div").hover(function(){
-			$(this).addClass("boxhover");
-		},function(){
-			$(this).removeClass("boxhover");
+			$(function(){  
+			   $('#content').masonry({
+			    itemSelector : '.post',
+			    columnWidth : 320
+			  });  
+			});
+			//盒子外阴影效果
+			$(".masonry>div").hover(function(){
+				$(this).addClass("boxhover");
+			},function(){
+				$(this).removeClass("boxhover");
 
+			});
 		});
 		
 	</script>
 
-	
 </body>
 </html>
