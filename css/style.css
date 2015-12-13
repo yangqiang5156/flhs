@@ -63,13 +63,10 @@ body {
 
 }
 
-.menu{
-	float: left;
-}
+
 .menu li{
 	float: left;
 	margin-right: 10px;
-
 }
 .menu li.active a,.menu li a:hover{
 	color: #FED136;
@@ -78,14 +75,11 @@ body {
 	font-size: 0.6em;
 	line-height:0.6em;
 	color: #ffffff;
-	text-transform: uppercase;
+	
 	font-family:“Microsoft YaHei”;
 	margin:0px 20px;
 	font-weight: 600;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+	
 }
 .introduce{ text-align:center; vertical-align:center; background: rgba(255, 255, 255, 0.8) none repeat scroll 0% 0%; border-radius: 10px; box-shadow: 0px 1px 8px 1.5px rgba(0, 0, 0, 0.25), 0px 20px 70px 8px rgba(0, 0, 0, 0.05); text-shadow: 1px 1px 2px #FFF;
 color: #333; margin-top:8%; }
@@ -107,7 +101,7 @@ color: #333; margin-top:8%; }
 }
 .xinqu p{
 	font-family: "MicrosoftYaHei";
-	font-size: 0.8em;
+	font-size: 1em;
 	padding: 0.5em 0;
 	color: #777777;
 	line-height: 1.5em;
@@ -115,62 +109,17 @@ color: #333; margin-top:8%; }
 	text-align:center;
 	margin-bottom: 2%;
 }
-/*  GRID OF THREE   ============================================================================= */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-.group:before,
-.group:after {
-    content:"";
-    display:table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    zoom:1;
-}
-.col_1_of_3{
-	display: block;
-	float:left;
-	margin: 1% 2% 1% 1%;
-}
-#xinqu > div > div:nth-child(5) {
-	margin-right: 0;
-}
-.col_1_of_3:first-child { margin-left: 0; }
-#xinqu > div > div> img {
-	cursor: pointer;
-}
-.span_1_of_3 {
+
+.xinqu_list {
 	width: 30.6%;
 	text-align: center;
-	margin-top: 1%;
-
+	
+	float:left;
 	padding-bottom: 1%;
+	margin: 1% 1% 1% 1%;
 }
-.span_1_of_3 h4 a{
-	color:#222222;
-	font-size:1.2em;
-	font-weight: 700;
-	 -webkit-transition: color .2s linear,background .2s linear;
-	-moz-transition: color .2s linear,background .2s linear;
-	-o-transition: color .2s linear,background .2s linear;
-	transition: color .2s linear,background .2s linear;
-}
-.span_1_of_3 h4 a:hover{
-	color:#FED136;
-}
-.span_1_of_3  p  {
-	font-family:"MicrosoftYaHei";
-	font-size:0.8755em;
-	padding:0.5em 0;
-	color: #777777;
-	line-height: 1.9em;
-	font-style: normal;
-}
+
+
 
 /* zuopin */
 
@@ -194,12 +143,12 @@ color: #333; margin-top:8%; }
 	font-weight: 500;
 	padding:2% 0 2% 2%;
 }
-.masonry{position: relative; margin:0 auto; width: 85%; margin-top: 20px;}
-.post{float:left; width: 300px; margin: 5px;}
+.list{float:left;margin: 5px;}
+.grid{position: relative; margin:0 auto; width: 85%; margin-top: 20px;}
+.post{ width: 300px; margin: 5px; background-color: #fff;border: 1px solid #ddd;}
 .boxhover{box-shadow: 0 0 15px #666;}
 .zuopinslogan{text-align: center; color:#777777;}
 .ftwenzi{background-color: #fff; padding:10px;line-height: 1.5em;}
-.piclist{border: 1px solid #ddd;}
 
 /*---start-bottom-footer---*/
 .bottom-footer{clear:both; background-color: #333333;}
@@ -273,7 +222,7 @@ color: #333; margin-top:8%; }
 		line-height:2.5em;
 	}
 
-	.span_1_of_3 {
+	.xinqu_list {
 		width: 100%;
 	}
 
@@ -288,7 +237,7 @@ color: #333; margin-top:8%; }
 	.wrap{
 		width:95%;
 	}
-	.span_1_of_3 {
+	.xinqu_list {
 		width: 100%;
 		margin-top: 0%;
 		padding-bottom: 0%;
